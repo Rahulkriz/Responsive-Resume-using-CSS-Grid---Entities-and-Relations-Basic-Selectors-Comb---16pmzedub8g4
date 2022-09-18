@@ -15,13 +15,14 @@ body{
 .container{
     position: relative;
 }
-.main{
+main{
     display: grid;
 }
 
 /* Write CSS code below */
 
 .main-content{
+    display: grid;
     justify-content: center;
     display: grid;
     width: 90%;
@@ -31,7 +32,7 @@ body{
 
     
 }
-.section{
+section{
     display: block;
 }
 .left-section{
