@@ -5,13 +5,7 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    background-color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: grid;
-}
+
 .container{
     position: relative;
 }
