@@ -145,6 +145,34 @@ color: black;
         width: 90%;
         min-height: 1000px; 
     }
+    .left-section{
+        width: 90%;
+        min-height: 1000px;
+    }
+    
+    .right-section{
+        width: 90%;
+        min-height: 1000px;
+
+    }
+    .profile img{
+        display: block;
+        margin: auto;
+        border: 5px solid white;
+        border-radius: 30%;
+        width: 40%;
+        
+    }
+    .skills{
+        font-size: 0.65rem;
+        text-align: center;
+     
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    
+    }
      
       
     
