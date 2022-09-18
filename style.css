@@ -15,12 +15,11 @@ main{
 
 /* Write CSS code below */
 
-.main{
+.main-content{
     display: grid;
     justify-content: center;
     display: grid;
     width: 90%;
-    margin: 20px auto;
     min-height: 1000px;
     grid-template-columns: 300px 700px;
 
@@ -136,7 +135,6 @@ color: black;
     color: gray;
     margin-left: 4rem;
 }
-
 
 @media (max-width:673px) {
    
