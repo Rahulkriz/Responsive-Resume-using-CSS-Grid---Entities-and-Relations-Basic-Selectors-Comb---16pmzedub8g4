@@ -15,6 +15,9 @@ body{
 .container{
     position: relative;
 }
+.main{
+    display: grid;
+}
 
 /* Write CSS code below */
 
@@ -25,7 +28,11 @@ body{
     margin: 20px auto;
     min-height: 1000px;
     grid-template-columns: 300px 700px;
+
     
+}
+.section{
+    display: block;
 }
 .left-section{
     grid-column: span 1/auto;
