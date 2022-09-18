@@ -15,7 +15,7 @@ main{
 
 /* Write CSS code below */
 
-.main-content{
+.main{
     display: grid;
     justify-content: center;
     display: grid;
@@ -137,7 +137,8 @@ color: black;
     margin-left: 4rem;
 }
 
-@media (max-width:  673px) {
+
+@media (max-width:673px) {
    
     .main-content{
       display: grid;
