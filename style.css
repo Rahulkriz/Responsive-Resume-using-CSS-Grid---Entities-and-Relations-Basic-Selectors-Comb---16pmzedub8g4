@@ -5,5 +5,126 @@
     list-style: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+}
+.container{
+    position: relative;
+}
 
 /* Write CSS code below */
+
+.main-content{
+    padding: auto;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 1000px;
+    grid-template-columns: 300px 700px;
+    
+}
+.left-content{
+    padding: 1rem;
+    width: 300px;
+    height: 1000px;
+    background-color:skyblue;
+    float: left;
+}
+.right-main-content{
+    width: 700px;
+    height: 1000px;
+    background-color: whitesmoke;
+}
+.profile-image{
+     display: block;
+     margin: auto;
+    width: 60%;
+    height: 170px;
+    border: 5px;
+    border-radius: 30%;
+}
+.name{
+    font-size: 1.2;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.05rem;
+}
+.description{
+    text-align: center;
+    font-size: 0.75rem;
+    padding: 1rem;
+}
+.line{
+color: black;
+}
+.contact{
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
+.icon{
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.progress-bar{
+    color: springgreen;
+    border: 1px white solid;
+    height: 4px;
+
+}
+.right-main-content{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 0.5rem;
+    
+}
+.span{
+    font-size: 13px;
+    color: gray;
+    margin-left: 4rem;
+}
+
+@media(max-width: 673px) 
+{
+    .main-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+        height: 1000px; 
+    }
+     
+      
+    
+  }
