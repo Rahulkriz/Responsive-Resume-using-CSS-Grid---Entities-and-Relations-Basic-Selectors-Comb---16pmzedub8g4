@@ -6,7 +6,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body{
-    background-color: aqua;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,18 +19,28 @@ body{
 /* Write CSS code below */
 
 .main-content{
-    padding: auto;
+    justify-content: center;
+    display: grid;
     width: 90%;
     margin: 20px auto;
     min-height: 1000px;
     grid-template-columns: 300px 700px;
     
 }
-.left-content{
-    padding: 1rem;
+.left-section{
+    grid-column: span 1/auto;
     width: 300px;
+}
+.right-section{
+    grid-column: span 1/ span 2;
+    width: 700 px;
+    width: 90%;
+}
+.left-content{
+    background-color: skyblue;
+    padding: 1rem;
     height: 1000px;
-    background-color:skyblue;
+
     float: left;
 }
 .right-main-content{
@@ -43,11 +53,13 @@ body{
      margin: auto;
     width: 60%;
     height: 170px;
-    border: 5px;
+    border: 5px ;
+    border-color: white;
+    border-style: solid;
     border-radius: 30%;
 }
 .name{
-    font-size: 1.2;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -58,7 +70,8 @@ body{
     font-size: 1rem;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 0.05rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700;
 }
 .description{
     text-align: center;
@@ -77,6 +90,13 @@ color: black;
     margin-top: 20px;
     width: 50px;
     height: 50px;
+}
+.skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;   
+    text-align: left;
+    padding-bottom: 0.5rem;
+
 }
 .skills{
     font-size: 0.75rem;
